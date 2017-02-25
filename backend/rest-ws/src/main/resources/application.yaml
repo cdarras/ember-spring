@@ -1,0 +1,17 @@
+logging:
+  level:
+    org.springframework.web: info
+    org.springframework.context.annotation.ConfigurationClassPostProcessor: error
+
+spring:
+  jackson:
+    serialization:
+      indent_output: true
+  application:
+    name: Web Services
+  h2:
+    console:
+      enabled: true
+
+server:
+  context-path: /api/
